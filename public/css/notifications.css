@@ -1,0 +1,198 @@
+/* main-section__body =============================== */
+/* notifications ==================================== */
+
+.notifications__navigation {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    max-width: 600px;
+    /*height: 100%;*/
+    border-right: 1px solid #eeeeee;
+}
+
+/* notifications__toolbar =========================== */
+
+.notifications-toolbar {
+    justify-content: space-between;
+    height: 60px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+/* notifications ==================================== */
+
+.notifications__container {
+    flex: 1 1 auto;
+    overflow: hidden;
+}
+.notifications__list {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+.notifications__tab {
+    background-color: #ffffff;
+    border-bottom: 1px solid #eeeeee;
+}
+.notifications__tab:hover {
+    background-color: #f9f9f9;
+}
+.notifications__tab._tab-active {
+    background-color: #eeeeee;
+}
+
+/* notifications__tab ================================= */
+
+.notification-tab__container {
+    width: 100%;
+    padding: 16px 0;
+}
+.notification-tab__header {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 12px;
+}
+.notification-tab__type-icon {
+    flex-shrink: 0;
+    width: 12px;
+    height: 12px;
+    margin-right: 8px;
+    border: 1px solid #3f6ac4;
+    border-radius: 50%;
+}
+.notification-tab__title {
+    flex: 1 1 auto;
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 500;
+}
+.notification-tab__status {
+    flex-shrink: 0;
+    margin-left: 16px;
+    width: 12px;
+    height: 12px;
+    background-color: #3f6ac4;
+    border-radius: 50%;
+}
+.notification-tab__message {
+    padding: 0 20px;
+    text-align: left;
+}
+.notification-tab__message-text {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.notification-tab__message-info {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 12px;
+    opacity: 0.5;
+}
+
+.message-info__item:not(:last-child) {
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: 1px dotted #2b2b2b;
+}
+/*.message-info__separator {}*/
+
+/* notifications__content =========================== */
+
+.card {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+}
+/* card__toolbar */
+.card-toolbar {
+    justify-content: right;
+    height: 60px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+/* card__content ==================================== */
+
+.card-content {
+    flex: 1 1 auto;
+    overflow: auto;
+}
+.card-content__container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* card-content__header */
+.card-header {
+    padding-top: 16px;
+}
+.card-header__title {
+    margin-bottom: 8px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 1.25;
+    font-weight: 500;
+}
+.card-header__info {
+    margin-bottom: 12px;
+    font-size: 12px;
+    opacity: 0.5;
+}
+
+/* card-content__message */
+.card-message {
+    margin-bottom: 10px;
+    padding: 10px 0 10px 0;
+}
+.card-message__info {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 6px;
+    font-size: 12px;
+}
+.card-message__author {
+    font-weight: 500;
+}
+.card-message__date {
+    opacity: 0.5;
+}
+.card-message__text {}
+
+/* card__footer ===================================== */
+
+.card-footer {
+    /*min-height: 90px;*/
+    background-color: #f9f9f9;
+    border-top: 1px solid #eeeeee;
+}
+.card-footer__container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* card-footer__send-message */
+.card-send-message {
+    width: 100%;
+    margin: 10px 0 10px 0;
+    padding: 0 10px 0px 10px;
+    background: #ffffff;
+    border: 1px solid #7a7a7a;
+    border-radius: 7px;
+}
+.card-send-message__textarea {
+    display: none;
+    width: 100%;
+    min-height: 60px;
+    margin-top: 8px;
+    resize: none;
+    font-size: 14px;
+    font-weight: 400;
+    border-bottom: 1px solid #eeeeee;
+}
+.card-send-message__toolbar {
+    justify-content: right;
+    padding: 7px 0 7px 0;
+}

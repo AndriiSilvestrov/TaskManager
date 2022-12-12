@@ -1,0 +1,83 @@
+/* xxx  xxx  xxx ==================================== */
+
+
+
+/* toolbar ========================================== */
+
+.toolbar {
+    display: flex;
+    flex: 0 0 auto;
+    align-items: center;
+    column-gap: 10px;
+    font-size: 12px;
+}
+.toolbar-group {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.toolbar-btn {
+    padding: 7px 13px;
+
+    color: #777777;
+    /*font-size: 12px;*/
+    font-weight: 500;
+
+    background-color: #ffffff;
+    border-radius: 7px;
+    transition: all 0.2s ease 0s;
+}
+.toolbar-btn._icon-btn {
+    padding: 7px 7px;
+}
+.toolbar-btn:hover {
+    color: #3e3e3e;
+    background-color: #f9f9f9;
+}
+
+.toolbar-accent-btn {
+    padding: 6px 12px;
+
+    color: #777777;
+    font-size: 12px;
+    font-weight: 500;
+
+    background-color: #ffffff;
+    border: 1px solid #aaaaaa;
+    border-radius: 7px;
+
+    transition: all 0.2s ease 0s;
+}
+.toolbar-accent-btn:hover {
+    color: #3e3e3e;
+    background-color: #f9f9f9;
+}
+.toolbar-accent-btn._btn--green:hover {}
+.toolbar-accent-btn._btn--red:hover {
+    color: #ff5757;
+    background-color: #ff575726;
+    border: 1px solid #ff5757;
+}
+
+/* button =========================================== */
+
+.button {
+    padding: 8px 14px;
+
+    color: #777777;
+    font-size: 14px;
+    font-weight: 500;
+
+    background-color: #ffffff;
+    border: 1px solid #aaaaaa;
+    border-radius: 7px;
+
+    transition: all 0.2s ease 0s;
+}
+.button:hover {
+    color: #3e3e3e;
+    background-color: #f9f9f9;
+}
+._btn--green {}
+._btn--red {}
